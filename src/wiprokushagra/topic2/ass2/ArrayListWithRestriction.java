@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	list.add(20);
 	list.add(5.2F);
 	list.add(3.1415D);
-	//list.add("hello");
+	list.add("hello");
 	}
 	catch(Exception e) {
 		System.out.println(e.getMessage());

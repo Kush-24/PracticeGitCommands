@@ -10,7 +10,7 @@ public boolean add(Kush e) {
 		super.add(e);
 		return true;
 	}else {
-		throw new ClassCastException("Only int, float and double allowded");
+		throw new ClassCastException("Only int, float and double allowed.");
 	}
 }
 }
