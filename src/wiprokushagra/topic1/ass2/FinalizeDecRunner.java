@@ -4,8 +4,7 @@ public class FinalizeDecRunner {
 public static void main(String[] args) {
 	FinalizeDeclare fd=new FinalizeDeclare();
 	fd=new FinalizeDeclare();
-	fd=new FinalizeDeclare();
-	fd=new FinalizeDeclare();
+	//fd=new FinalizeDeclare();
 	try {
 		System.gc(); // finalize method called before gc.
 	} catch (Exception e) {

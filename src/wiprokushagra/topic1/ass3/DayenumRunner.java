@@ -32,7 +32,7 @@ public class DayenumRunner {
 		System.out.println("Enjoy weekend");
 			break;
 	default:
-		System.out.println("Enter days only");
+		System.out.println("Enter day :");
 		break;
 	}
 	  
@@ -43,9 +43,9 @@ public class DayenumRunner {
 		String s1="HOLIDAY";
 		
 		try {
-		DayenumRunner dr=new DayenumRunner(DaysOfWeek.valueOf(s));// convert s in obj of daysofweek
+		DayenumRunner dr=new DayenumRunner(DaysOfWeek.SUNDAY);
 		dr.daysIsLike();
-	    dr=new DayenumRunner(DaysOfWeek.valueOf(s1));
+	    dr=new DayenumRunner(DaysOfWeek.valueOf(s1)); // holiday is not present in enum
 	    dr.daysIsLike();
 		}
 		catch(IllegalArgumentException e) {
