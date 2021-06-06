@@ -18,5 +18,13 @@ public class ImplClassWithLambda{
 	  
 	  System.out.println("The number of occurence :"+ch+" will be "+occ);
 	  
+	  
+	  String str1="Hello from the other side.";
+	 
+	  
+	 int occ1= co.findOccurence(str1,ch);
+	  
+	  System.out.println("The number of occurence :"+ch+" will be "+occ1);
+	  
 	}
 }
